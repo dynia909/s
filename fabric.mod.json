@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "arcane",
+  "version": "${version}",
+  "name": "Arcane Wands",
+  "description": "Adds a magic wand with switchable spells.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/arcane/textures/item/wand.png",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.arcane.ArcaneMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
